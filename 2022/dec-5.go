@@ -56,18 +56,6 @@ func main() {
 	var stack8 Stack
 	var stack9 Stack
 
-	/*
-
-                        [R] [J] [W]
-            [R] [N]     [T] [T] [C]
-[R]         [P] [G]     [J] [P] [T]
-[Q]     [C] [M] [V]     [F] [F] [H]
-[G] [P] [M] [S] [Z]     [Z] [C] [Q]
-[P] [C] [P] [Q] [J] [J] [P] [H] [Z]
-[C] [T] [H] [T] [H] [P] [G] [L] [V]
-[F] [W] [B] [L] [P] [D] [L] [N] [G]
- 1   2   3   4   5   6   7   8   9 */
-
 	stack1.Push("F")
 	stack1.Push("C")
 	stack1.Push("P")
