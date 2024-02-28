@@ -2,7 +2,6 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 import re
-import time
 
 TUNING_FREQ_MULTIPLIER = 4000000
 
@@ -171,7 +170,4 @@ def process_sensors(data) -> dict[Point, Point]:
     return sensor_to_beacon
 
 if __name__ == "__main__":
-    t1 = time.perf_counter()
     main()
-    t2 = time.perf_counter()
-    print(f"Execution time: {t2 - t1:0.4f} seconds")
