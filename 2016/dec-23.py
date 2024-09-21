@@ -57,9 +57,4 @@ regs['a'] = 7
 print(run(regs))
 
 # Part two
-# By watching the values of the registers whenever the value of regs['b']
-# changes, it becomes apparent that the output above is 7!, but with an
-# added value of regs['d'] * regs['c'] once regs['d'] is set again, in
-# my case, 7! + 91 * 73. The exact same values of regs['c'] and regs['d']
-# will be used in the case, where regs['a'] starts out being 12.
 print(factorial(12) + 91 * 73)
